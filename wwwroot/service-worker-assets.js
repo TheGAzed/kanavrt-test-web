@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "kzS0XQz0",
+  "version": "49POkNpP",
   "assets": [
     {
       "hash": "sha256-tC8gmRh4ht72N9aqhAAiJm4Fy2yYepOU5wjiPNUF60Y=",
@@ -414,7 +414,7 @@ self.assetsManifest = {
       "url": "img/svg/statistics/caret-right-fill.svg"
     },
     {
-      "hash": "sha256-PDFCLm0IFC7YEQTxLMu6ucHbMH6lDedv5M/s9zsSCAc=",
+      "hash": "sha256-lWUnzOL1yMUc7SJ+FhD5QPlEeGIb0AZuuBMihGn2YHE=",
       "url": "index.html"
     },
     {
