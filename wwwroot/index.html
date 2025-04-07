@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="keywords" content="hira, vrt, hiragana, hiragana drill, hiragana quiz, hiragana learning, japanese hiragana syllables, personalized quiz, open source, free hiragana learning tool, hiragana test, hiragana drill online, japanese hiragana drill, hiragana practice, learning, hiravrt, free hiragana drill, free japanese hiragana learning" />
+    <meta name="description" content="A web application for practicing Japanese hiragana, allowing users to learn syllables through customizable quiz settings. Users can tailor quizzes to their learning preferences for an interactive experience." />
+
+    <title>kanavrt</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/kanavrt.css" />
+    <link rel="stylesheet" href="css/mainnav.css" />
+    <link rel="stylesheet" href="css/sidenav.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="kanavrt.styles.css" rel="stylesheet" />
+    <link href="manifest.webmanifest" rel="manifest" />
+</head>
+
+<body>
+    <script>
+        window.SetFocusToElement = (element) => {
+            element.focus();
+        };
+    </script>
+
+    <div id="app" style="height: inherit;">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+</body>
+
+</html>
